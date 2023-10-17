@@ -73,7 +73,7 @@ public class FlySpeedEnchantment extends Enchantment {
 
   @Override
   public boolean isAllowedOnBooks() {
-    return false;
+    return true;
   }
 
   @Override
@@ -83,12 +83,12 @@ public class FlySpeedEnchantment extends Enchantment {
 
   @Override
   public boolean isTradeable() {
-    return false;
+    return true;
   }
 
   @Override
   public boolean isDiscoverable() {
-    return false;
+    return true;
   }
 
   @Override
